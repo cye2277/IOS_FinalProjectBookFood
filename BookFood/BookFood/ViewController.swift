@@ -41,7 +41,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 var all_data = snapshot.value as? [String: AnyObject]
                 let firebaseEmail = all_data?["email"]
                 //print(firebaseEmail)
-                if  (firebaseEmail?.isEqual("test1@gmail.com"))!   {
+                    if(firebaseEmail==nil){
+                    }
+                else if  (firebaseEmail?.isEqual(self.userEmail))!   {
                     self.orders.append(key)
                     print(key)
         self.ref.child(key).child("orderStatus").observe(.value, with: { (snapshot) in

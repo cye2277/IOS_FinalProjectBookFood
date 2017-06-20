@@ -18,7 +18,7 @@ class ListOrderTableViewController: UITableViewController {
     var userPhone = [String]()
     var status = [String]()
     var order: String!
-
+    var brandName: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +30,7 @@ class ListOrderTableViewController: UITableViewController {
             self.ref.child(key).child("items").observe(.childAdded, with: { (snapshot) in
                 let data = snapshot.value as? [String: AnyObject]
                 print(data?["Brand"])
-                if (data?["Brand"]?.isEqual("佐世保"))!{
+                if (data?["Brand"]?.isEqual(self.brandName))!{
                     self.orders.append(key)
                 }
 

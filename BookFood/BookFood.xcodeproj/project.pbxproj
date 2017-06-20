@@ -52,6 +52,7 @@
 		48F7A10A1EE967D800F65BFE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48F7A1091EE967D800F65BFE /* GoogleService-Info.plist */; };
 		48F7A10E1EE9800C00F65BFE /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F7A10D1EE9800C00F65BFE /* RestaurantViewController.swift */; };
 		48F7A1101EE9808F00F65BFE /* RestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F7A10F1EE9808F00F65BFE /* RestaurantCollectionViewCell.swift */; };
+		95BD97811EF9D229007895FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BD97831EF9D229007895FF /* Main.storyboard */; };
 		99860708CF8D153369BE7E41 /* Pods_BookFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A44B285CC5962275BF17F9 /* Pods_BookFood.framework */; };
 		D0EE226523FBFEBAB7B7C70D /* Pods_BookFoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0898E91C533E93E1C31C4176 /* Pods_BookFoodUITests.framework */; };
 		F719BA9E1EF0052300DEFCBE /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F719BA9D1EF0052300DEFCBE /* MemberData.swift */; };
@@ -134,6 +135,7 @@
 		48F7A10F1EE9808F00F65BFE /* RestaurantCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCollectionViewCell.swift; sourceTree = "<group>"; };
 		56A5B5B2FDB401C75CAF1F59 /* Pods_BookFoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookFoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EFA9276E2AC8D3111647C4 /* Pods-BookFoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookFoodUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookFoodUITests/Pods-BookFoodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95BD97821EF9D229007895FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9A44B285CC5962275BF17F9 /* Pods_BookFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60FA9940EDDC41F37861BE0 /* Pods-BookFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookFood/Pods-BookFood.release.xcconfig"; sourceTree = "<group>"; };
 		F719BA9D1EF0052300DEFCBE /* MemberData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				48803DFC1EB9AB0C00EDA617 /* Booking.swift */,
 				48803DFE1EB9AB7200EDA617 /* CheckOrder.swift */,
 				48803E001EB9AC1400EDA617 /* SuccessOrder.swift */,
+				95BD97831EF9D229007895FF /* Main.storyboard */,
 				48F7A10D1EE9800C00F65BFE /* RestaurantViewController.swift */,
 				48F7A10F1EE9808F00F65BFE /* RestaurantCollectionViewCell.swift */,
 				F7327F071EEC5CFA0027ABA7 /* Register.swift */,
@@ -406,6 +409,7 @@
 				48B490D11EB8E7AE00C8C7DE /* LaunchScreen.storyboard in Resources */,
 				042543DD1EF11FBE000943BE /* Images.xcassets in Resources */,
 				48B490CE1EB8E7AE00C8C7DE /* Assets.xcassets in Resources */,
+				95BD97811EF9D229007895FF /* Main.storyboard in Resources */,
 				48B490C91EB8E7AE00C8C7DE /* Main.storyboard in Resources */,
 				48F7A10A1EE967D800F65BFE /* GoogleService-Info.plist in Resources */,
 			);
@@ -659,6 +663,14 @@
 				48B490D01EB8E7AE00C8C7DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		95BD97831EF9D229007895FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95BD97821EF9D229007895FF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
